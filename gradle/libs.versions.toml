@@ -6,6 +6,7 @@ activity = "1.9.3"
 [libraries]
 androidx-compose-bom = "androidx.compose:compose-bom:2024.12.01"
 androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
 
 [plugins]
