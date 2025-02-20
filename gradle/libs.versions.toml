@@ -1,10 +1,10 @@
 [versions]
-agp = "8.8.0"
+agp = "8.8.1"
 kotlin = "2.1.0"
-activity = "1.9.3"
+activity = "1.10.0"
 
 [libraries]
-androidx-compose-bom = "androidx.compose:compose-bom:2024.12.01"
+androidx-compose-bom = "androidx.compose:compose-bom:2025.02.00"
 androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
 androidx-compose-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
