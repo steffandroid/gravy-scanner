@@ -11,6 +11,7 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.MaterialTheme
+import uk.co.steffandroid.gravyscanner.ui.theme.GravyScannerTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +35,7 @@ class MainActivity : ComponentActivity() {
             }
 
         setContent {
-            MaterialTheme {
+            GravyScannerTheme {
                 MainView(
                     installedApps = installedApps,
                     onItemClicked = { packageName ->
