@@ -2,12 +2,14 @@
 agp = "8.8.1"
 kotlin = "2.1.0"
 activity = "1.10.0"
+material = "1.10.0"
 
 [libraries]
 androidx-compose-bom = "androidx.compose:compose-bom:2025.02.00"
 androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
 androidx-compose-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
+google-android-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

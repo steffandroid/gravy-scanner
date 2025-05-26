@@ -47,4 +47,5 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.tooling)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.google.android.material)
 }
